@@ -1,0 +1,66 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.auth-page {
+    display: flex;
+    height: 100vh;
+}
+
+.auth-background {
+    flex: 1;
+    background-image: url('https://bcp.cdnchinhphu.vn/334894974524682240/2022/9/12/nha-chung-cu-16629517441581660227438.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.auth-container {
+    flex: 0 0 400px; /* Chiều rộng cố định cho form */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(217, 216, 216, 0.7);
+    color: #007bff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.toggle {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
